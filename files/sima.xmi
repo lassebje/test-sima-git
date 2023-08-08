@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="ASCII"?>
 <sima:SIMAWorkspace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sima="http://marintek.no/schemas/sima/base/r24" xmlns:simo="http://marintek.no/schemas/sima/simo/r45" xmi:id="_CRLUoBSxEe6XK60gkQ5-bw" productId="4.6.2">
-  <tasks xsi:type="simo:SIMOTask" xmi:id="_GSUIIDXJEe60AaYU3NjOiA" name="Hello">
-    <initialCondition xmi:id="_GSUIITXJEe60AaYU3NjOiA" name="Initial"/>
-    <model xmi:id="_GSUIIjXJEe60AaYU3NjOiA">
-      <location xsi:type="simo:SIMOLocation" xmi:id="_GSUIIzXJEe60AaYU3NjOiA" name="location">
-        <initialViewpoint xmi:id="_GSUIJDXJEe60AaYU3NjOiA">
-          <eye xmi:id="_GSUIJTXJEe60AaYU3NjOiA" x="-1.0"/>
-          <dir xmi:id="_GSUIJjXJEe60AaYU3NjOiA" x="1.0"/>
-          <up xmi:id="_GSUIJzXJEe60AaYU3NjOiA" z="1.0"/>
+  <tasks xsi:type="simo:SIMOTask" xmi:id="_ymT1kTXeEe6eSOAx-0XETQ" name="Hello">
+    <initialCondition xmi:id="_ymT1kjXeEe6eSOAx-0XETQ" name="Initial"/>
+    <model xmi:id="_ymT1kzXeEe6eSOAx-0XETQ">
+      <location xsi:type="simo:SIMOLocation" xmi:id="_ymT1lDXeEe6eSOAx-0XETQ" name="location">
+        <initialViewpoint xmi:id="_ymT1lTXeEe6eSOAx-0XETQ">
+          <eye xmi:id="_ymT1ljXeEe6eSOAx-0XETQ" x="-1.0"/>
+          <dir xmi:id="_ymT1lzXeEe6eSOAx-0XETQ" x="1.0"/>
+          <up xmi:id="_ymT1mDXeEe6eSOAx-0XETQ" z="1.0"/>
         </initialViewpoint>
-        <initialRotationpoint xmi:id="_GSUIKDXJEe60AaYU3NjOiA"/>
-        <seaSurface xmi:id="_GSUIKTXJEe60AaYU3NjOiA" sizeX="1000.0" sizeY="1000.0" z="0.0">
-          <color xmi:id="_GSUIKjXJEe60AaYU3NjOiA" red="0.0" blue="0.7"/>
+        <initialRotationpoint xmi:id="_ymT1mTXeEe6eSOAx-0XETQ"/>
+        <seaSurface xmi:id="_ymT1mjXeEe6eSOAx-0XETQ" sizeX="1000.0" sizeY="1000.0" z="0.0">
+          <color xmi:id="_ymT1mzXeEe6eSOAx-0XETQ" red="0.0" blue="0.7"/>
         </seaSurface>
-        <flatBottom xmi:id="_GSUIKzXJEe60AaYU3NjOiA" sizeX="1000.0" sizeY="1000.0" z="-1000.0">
-          <color xmi:id="_GSUILDXJEe60AaYU3NjOiA" red="0.7" green="0.7" blue="0.7"/>
+        <flatBottom xmi:id="_ymT1nDXeEe6eSOAx-0XETQ" sizeX="1000.0" sizeY="1000.0" z="-1000.0">
+          <color xmi:id="_ymT1nTXeEe6eSOAx-0XETQ" red="0.7" green="0.7" blue="0.7"/>
         </flatBottom>
-        <physicalConstants xmi:id="_GSUILTXJEe60AaYU3NjOiA"/>
+        <physicalConstants xmi:id="_ymT1njXeEe6eSOAx-0XETQ"/>
       </location>
-      <sIMOStaticCalculationParameters xmi:id="_GSUILjXJEe60AaYU3NjOiA">
-        <equilibriumGridDefinition xmi:id="_GSUILzXJEe60AaYU3NjOiA">
-          <roll xmi:id="_GSUIMDXJEe60AaYU3NjOiA"/>
-          <pitch xmi:id="_GSUIMTXJEe60AaYU3NjOiA"/>
+      <sIMOStaticCalculationParameters xmi:id="_ymT1nzXeEe6eSOAx-0XETQ">
+        <equilibriumGridDefinition xmi:id="_ymT1oDXeEe6eSOAx-0XETQ">
+          <roll xmi:id="_ymT1oTXeEe6eSOAx-0XETQ"/>
+          <pitch xmi:id="_ymT1ojXeEe6eSOAx-0XETQ"/>
         </equilibriumGridDefinition>
       </sIMOStaticCalculationParameters>
-      <sIMODynamicCalculationParameters xmi:id="_GSUIMjXJEe60AaYU3NjOiA">
-        <externalControlSetup xmi:id="_GSUIMzXJEe60AaYU3NjOiA"/>
-        <multiEnvironmentSetup xmi:id="_GSUINDXJEe60AaYU3NjOiA"/>
-        <waveTimeSeries xmi:id="_GSUINTXJEe60AaYU3NjOiA"/>
-        <windSpectrumVerticalDomain xmi:id="_GSUINjXJEe60AaYU3NjOiA"/>
+      <sIMODynamicCalculationParameters xmi:id="_ymT1ozXeEe6eSOAx-0XETQ">
+        <externalControlSetup xmi:id="_ymT1pDXeEe6eSOAx-0XETQ"/>
+        <multiEnvironmentSetup xmi:id="_ymT1pTXeEe6eSOAx-0XETQ"/>
+        <waveTimeSeries xmi:id="_ymT1pjXeEe6eSOAx-0XETQ"/>
+        <windSpectrumVerticalDomain xmi:id="_ymT1pzXeEe6eSOAx-0XETQ"/>
       </sIMODynamicCalculationParameters>
     </model>
   </tasks>
+  <tasks xsi:type="sima:StorageTask" xmi:id="_R25OgDXdEe6fhsegKoIyow" name="StorageTask"/>
 </sima:SIMAWorkspace>
 <!-- SIMA CHECKSUM START
-5efa36ce6da53847598b0a2da50d28db6ad66c87
+cd3bf9f21362db8ca3d2aa0baab427aaaca5e289
 SIMA CHECKSUM END -->

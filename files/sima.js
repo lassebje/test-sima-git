@@ -68,4 +68,7 @@ var simodynamiccalculationparameters = simomodel.sIMODynamicCalculationParameter
 
 
 
+var storagetask = sima.createStorageTask()
+storagetask.name = "StorageTask"
+
 
